@@ -161,7 +161,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 		driver.findElement(By.id("admin_link")).click();
 		driver.get(baseUrl + "/secure/admin/ProjectImportSelectBackup!default.jspa");
 		driver.findElement(By.name("backupXmlPath")).clear();
-		driver.findElement(By.name("backupXmlPath")).sendKeys("20130506-1607-modified.zip");
+		driver.findElement(By.name("backupXmlPath")).sendKeys("jira-merge-20130521_modified.zip");
 		driver.findElement(By.id("project-import-submit")).click();
 		
 		
