@@ -125,7 +125,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 		projectList.add("SOCIALR");
 		projectList.add("SOLSETCREAT");
 		projectList.add("SOLJIRA");
-		projectList.add("SOLSETWEB");
+		projectList.add("WEBOPS");
 		projectList.add("SOLSET");
 		projectList.add("SPECKB");
 		projectList.add("STELLRA");
