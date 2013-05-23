@@ -154,7 +154,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 
 		driver.get(baseUrl + "/login.jsp");
 		driver.findElement(By.id("login-form-username")).clear();
-		driver.findElement(By.id("login-form-username")).sendKeys("atrissel");
+		driver.findElement(By.id("login-form-username")).sendKeys("adam.trissel");
 		driver.findElement(By.id("login-form-password")).clear();
 		driver.findElement(By.id("login-form-password")).sendKeys("m@ke1hill");
 		driver.findElement(By.id("login-form-submit")).click();

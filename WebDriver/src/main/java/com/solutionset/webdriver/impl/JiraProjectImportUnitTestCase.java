@@ -52,30 +52,30 @@ public class JiraProjectImportUnitTestCase {
 		
 		List<String> projectList = new ArrayList();
 		
-//		projectList.add("DOTNETTOOL");
-//		projectList.add("AMEXMISC");
-//		projectList.add("AMEXCOMPA");
-//		projectList.add("AMEXR");
-//		projectList.add("AMEXMROE");
-//		projectList.add("AMEXUKSAW");
-//		projectList.add("AMEXGCP");
-//		projectList.add("APOLLO");
-//		projectList.add("BERKELEY");
-//		projectList.add("BLACKARROW");
-//		projectList.add("BREAD");
-//		projectList.add("BREADM");
-//		projectList.add("CALOTCLIENT");
-//		projectList.add("CALOTT");
-//		projectList.add("CALOTINT");
-//		projectList.add("CALOTDD");
-//		projectList.add("CALOTBB");
-//		projectList.add("CALOTCC");
-//		projectList.add("CHEVRONG");
-//		projectList.add("CISCOUAT");
-//		projectList.add("CLOUDERA");
-//		projectList.add("CLUBTHREE");
-//		projectList.add("CLUB");
-//		projectList.add("CLUBFOUR");
+		projectList.add("DOTNETTOOL");
+		projectList.add("AMEXMISC");
+		projectList.add("AMEXCOMPA");
+		projectList.add("AMEXR");
+		projectList.add("AMEXMROE");
+		projectList.add("AMEXUKSAW");
+		projectList.add("AMEXGCP");
+		projectList.add("APOLLO");
+		projectList.add("BERKELEY");
+		projectList.add("BLACKARROW");
+		projectList.add("BREAD");
+		projectList.add("BREADM");
+		projectList.add("CALOTCLIENT");
+		projectList.add("CALOTT");
+		projectList.add("CALOTINT");
+		projectList.add("CALOTDD");
+		projectList.add("CALOTBB");
+		projectList.add("CALOTCC");
+		projectList.add("CHEVRONG");
+		projectList.add("CISCOUAT");
+		projectList.add("CLOUDERA");
+		projectList.add("CLUBTHREE");
+		projectList.add("CLUB");
+		projectList.add("CLUBFOUR");
 		projectList.add("CROWNA");
 		projectList.add("DATAS");
 		projectList.add("DELLA");
@@ -190,7 +190,7 @@ public class JiraProjectImportUnitTestCase {
 			
 			driver.get(baseUrl + "/secure/admin/ProjectImportSelectBackup!default.jspa");
 			driver.findElement(By.name("backupXmlPath")).clear();
-			driver.findElement(By.name("backupXmlPath")).sendKeys("20130506-1607-modified.zip");
+			driver.findElement(By.name("backupXmlPath")).sendKeys("jira-merge-20130521_modified.zip");
 			driver.findElement(By.id("project-import-submit")).click();
 			
 			
