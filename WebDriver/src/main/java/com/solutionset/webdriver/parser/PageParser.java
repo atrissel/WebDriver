@@ -64,7 +64,7 @@ public class PageParser {
 			File input = new File(fileName);
 			Document doc = Jsoup.parse(input, "UTF-8", "http://example.com/");
 			
-			Element contentBody = doc.select("div.content-body").first();
+			Element contentBody = doc.getElementsByClass("jiraform").first();
 			
 			//System.out.println(contentBody.html());
 			Elements messages = contentBody.getElementsByClass("aui-message");
@@ -108,7 +108,7 @@ public class PageParser {
 		
 		PageParser pp = new PageParser();
 		
-		ArrayList<String> fileNames = pp.listFilesForFolder("/Users/adamtrissel/Workspaces/m/WebDriver/StatusFiles");
+		ArrayList<String> fileNames = pp.listFilesForFolder("/Users/adamtrissel/git/JiraMigration/WebDriver/StatusFiles");
 		
 		pp.outputHeader();
 		

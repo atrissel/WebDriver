@@ -22,6 +22,8 @@ import org.junit.Test;
 
 public class JiraProjectImportPrerunUnitTestCase {
 	
+	private final String projectImportFile = "JIRA-merge-20130604-1348.zip";
+	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
 	private List<String> projectList = new ArrayList();
@@ -52,9 +54,16 @@ public class JiraProjectImportPrerunUnitTestCase {
 		
 		List<String> projectList = new ArrayList();
 		
+		projectList.add("DELLSNASHAREVOICE");
+		projectList.add("EMEA");
+		projectList.add("GOOGAEC");
+		projectList.add("GOOGENGAGE");
+		projectList.add("GOOGGDNNL");
+		projectList.add("GOOGNX");
+		projectList.add("REMITDATAWD");
 		projectList.add("DOTNETTOOL");
 		projectList.add("AMEXMISC");
-		projectList.add("AMEXCOMPA");
+		projectList.add("AMEXCOMPARE");
 		projectList.add("AMEXR");
 		projectList.add("AMEXMROE");
 		projectList.add("AMEXUKSAW");
@@ -95,7 +104,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 		projectList.add("GOOGADS");
 		projectList.add("GOOGLEAG");
 		projectList.add("GOOGCM");
-		//projectList.add("GOOGALLSTARS");
+		projectList.add("GOOGALLSTARS");
 		projectList.add("GOOGLEENTAPPS");
 		projectList.add("GOOGLCS");
 		projectList.add("GOOGLEGA");
@@ -121,11 +130,11 @@ public class JiraProjectImportPrerunUnitTestCase {
 		projectList.add("PROSIGHTC");
 		projectList.add("RSACA");
 		projectList.add("SSNB");
-		projectList.add("SITECOREK");
+		projectList.add("SITECOREKIT");
 		projectList.add("SOCIALR");
 		projectList.add("SOLSETCREAT");
 		projectList.add("SOLJIRA");
-		projectList.add("WEBOPS");
+		projectList.add("SOLSETWEBOPS");
 		projectList.add("SOLSET");
 		projectList.add("SPECKB");
 		projectList.add("STELLRA");
@@ -136,14 +145,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 		projectList.add("VMWARE");
 		projectList.add("VMWAREB");
 		projectList.add("WFSWEEP");
-		projectList.add("YOUTUBE");
-		projectList.add("DELLSNASH");
-		//projectList.add("GOOGENGAGE");
-		//projectList.add("GOOGAEC");
-		//projectList.add("GOOGGDNNL");
-		//projectList.add("GOOGNX");
-		//projectList.add("REMITDATAWD");
-			
+		projectList.add("YOUTUBE");			
 		
 		return projectList;
 		
@@ -158,10 +160,10 @@ public class JiraProjectImportPrerunUnitTestCase {
 		driver.findElement(By.id("login-form-password")).clear();
 		driver.findElement(By.id("login-form-password")).sendKeys("m@ke1hill");
 		driver.findElement(By.id("login-form-submit")).click();
-		driver.findElement(By.id("admin_link")).click();
+		//driver.findElement(By.id("admin_link")).click();
 		driver.get(baseUrl + "/secure/admin/ProjectImportSelectBackup!default.jspa");
 		driver.findElement(By.name("backupXmlPath")).clear();
-		driver.findElement(By.name("backupXmlPath")).sendKeys("jira-merge-20130521_modified.zip");
+		driver.findElement(By.name("backupXmlPath")).sendKeys(projectImportFile);
 		driver.findElement(By.id("project-import-submit")).click();
 		
 		
