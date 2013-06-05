@@ -52,9 +52,16 @@ public class JiraProjectImportUnitTestCase {
 		
 		List<String> projectList = new ArrayList();
 		
+		projectList.add("DELLSNASHAREVOICE");
+		projectList.add("EMEA");
+		projectList.add("GOOGAEC");
+		projectList.add("GOOGENGAGE");
+		projectList.add("GOOGGDNNL");
+		projectList.add("GOOGNX");
+		projectList.add("REMITDATAWD");
 		projectList.add("DOTNETTOOL");
 		projectList.add("AMEXMISC");
-		projectList.add("AMEXCOMPA");
+		projectList.add("AMEXCOMPARE");
 		projectList.add("AMEXR");
 		projectList.add("AMEXMROE");
 		projectList.add("AMEXUKSAW");
@@ -71,7 +78,6 @@ public class JiraProjectImportUnitTestCase {
 		projectList.add("CALOTBB");
 		projectList.add("CALOTCC");
 		projectList.add("CHEVRONG");
-		projectList.add("CISCOUAT");
 		projectList.add("CLOUDERA");
 		projectList.add("CLUBTHREE");
 		projectList.add("CLUB");
@@ -95,7 +101,7 @@ public class JiraProjectImportUnitTestCase {
 		projectList.add("GOOGADS");
 		projectList.add("GOOGLEAG");
 		projectList.add("GOOGCM");
-		//projectList.add("GOOGALLSTARS");
+		projectList.add("GOOGALLSTARS");
 		projectList.add("GOOGLEENTAPPS");
 		projectList.add("GOOGLCS");
 		projectList.add("GOOGLEGA");
@@ -121,11 +127,11 @@ public class JiraProjectImportUnitTestCase {
 		projectList.add("PROSIGHTC");
 		projectList.add("RSACA");
 		projectList.add("SSNB");
-		projectList.add("SITECOREK");
+		projectList.add("SITECOREKIT");
 		projectList.add("SOCIALR");
 		projectList.add("SOLSETCREAT");
 		projectList.add("SOLJIRA");
-		projectList.add("SOLSETWEB");
+		projectList.add("SOLSETWEBOPS");
 		projectList.add("SOLSET");
 		projectList.add("SPECKB");
 		projectList.add("STELLRA");
@@ -136,13 +142,7 @@ public class JiraProjectImportUnitTestCase {
 		projectList.add("VMWARE");
 		projectList.add("VMWAREB");
 		projectList.add("WFSWEEP");
-		projectList.add("YOUTUBE");
-		projectList.add("DELLSNASH");
-//		//projectList.add("GOOGENGAGE");
-//		//projectList.add("GOOGAEC");
-//		//projectList.add("GOOGGDNNL");
-//		//projectList.add("GOOGNX");
-//		//projectList.add("REMITDATAWD");
+		projectList.add("YOUTUBE");			
 			
 		
 		return projectList;

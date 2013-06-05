@@ -80,7 +80,6 @@ public class JiraProjectImportPrerunUnitTestCase {
 		projectList.add("CALOTBB");
 		projectList.add("CALOTCC");
 		projectList.add("CHEVRONG");
-		projectList.add("CISCOUAT");
 		projectList.add("CLOUDERA");
 		projectList.add("CLUBTHREE");
 		projectList.add("CLUB");
