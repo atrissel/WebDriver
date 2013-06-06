@@ -67,6 +67,7 @@ public class JiraProjectCreateUnitTestCase {
 		projectList.add(new ProjectBean("CLUBFOUR", "ClubOne - SOW4 ", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("CLUBTHREE", "ClubOne - SOW 3", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("DATAS", "DataSift TACT MVP ", "SolutionSet Scrum"));
+		projectList.add(new ProjectBean("DELLA", "ÊDell - SOW1 - Social Net Advocacy", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("DELLB", "Dell Social Net Advocacy (SNA, SNAp, SNApi)", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("DELLSNASHAREVOICE", "Dell SNA Competitor Data & Maintenance", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("ECHOSIGN", "EchoSign - SOW 1  Site Redesign ", "SolutionSet Scrum"));
@@ -74,9 +75,11 @@ public class JiraProjectCreateUnitTestCase {
 		projectList.add(new ProjectBean("GOOGLEM", "Google SOW45 Email Production Tools", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("GORESOURCE", "Launchpad Central", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("MRCB", "MRC SOW2", "SolutionSet Scrum"));
+		projectList.add(new ProjectBean("PACUNION", "Pacific Union", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("PROCURIAN", "Procurian SOW 2 - Website Updates", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("REMITDATAWD", " RemitDATA: SOW2", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("SITECOREKIT", "Sitecore Starter Kit", "SolutionSet Scrum"));
+		projectList.add(new ProjectBean("SOLSETWEBOPS", "SolutionSet - Systems Engineering Task Queue", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("SOCIALR", "SocialRep", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("SOLSET", "solutionset.com: redesign 2011", "SolutionSet Scrum"));
 		projectList.add(new ProjectBean("SPECKB", "Speck Products SOW3 - Partner Portal", "SolutionSet Scrum"));

@@ -22,6 +22,8 @@ import org.junit.Test;
 
 public class JiraProjectImportUnitTestCase {
 	
+	private final String projectImportFile = "JIRA-merge-20130604-1348.zip";
+	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
 	private List<String> projectList = new ArrayList();
@@ -154,11 +156,11 @@ public class JiraProjectImportUnitTestCase {
 
 		driver.get(baseUrl + "/login.jsp");
 		driver.findElement(By.id("login-form-username")).clear();
-		driver.findElement(By.id("login-form-username")).sendKeys("atrissel");
+		driver.findElement(By.id("login-form-username")).sendKeys("adam.trissel");
 		driver.findElement(By.id("login-form-password")).clear();
 		driver.findElement(By.id("login-form-password")).sendKeys("m@ke1hill");
 		driver.findElement(By.id("login-form-submit")).click();
-		driver.findElement(By.id("admin_link")).click();
+//		driver.findElement(By.id("admin_link")).click();
 //		driver.get(baseUrl + "/secure/admin/ProjectImportSelectBackup!default.jspa");
 //		driver.findElement(By.name("backupXmlPath")).clear();
 //		driver.findElement(By.name("backupXmlPath")).sendKeys("20130506-1607-modified.zip");
@@ -190,7 +192,7 @@ public class JiraProjectImportUnitTestCase {
 			
 			driver.get(baseUrl + "/secure/admin/ProjectImportSelectBackup!default.jspa");
 			driver.findElement(By.name("backupXmlPath")).clear();
-			driver.findElement(By.name("backupXmlPath")).sendKeys("jira-merge-20130521_modified.zip");
+			driver.findElement(By.name("backupXmlPath")).sendKeys(projectImportFile);
 			driver.findElement(By.id("project-import-submit")).click();
 			
 			
