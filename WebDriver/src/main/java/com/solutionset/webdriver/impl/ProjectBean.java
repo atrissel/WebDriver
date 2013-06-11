@@ -20,18 +20,26 @@ public class ProjectBean {
 	public void setProjectWorkFlow(String projectWorkFlow) {
 		this.projectWorkFlow = projectWorkFlow;
 	}
-
+	public String getProjectFieldScheme() {
+		return projectFieldScheme;
+	}
+	public void setProjectFieldScheme(String projectFieldScheme) {
+		this.projectFieldScheme = projectFieldScheme;
+	}
 	
 	private String projectCode;
 	private String projectName;
 	private String projectWorkFlow;
+	private String projectFieldScheme;
+
 	
 	public ProjectBean(String projectCode, String projectName,
-			String projectWorkFlow) {
+			String projectWorkFlow, String projectFieldScheme) {
 		super();
 		this.projectCode = projectCode;
 		this.projectName = projectName;
 		this.projectWorkFlow = projectWorkFlow;
+		this.projectFieldScheme = projectFieldScheme;
 	}
 
 }

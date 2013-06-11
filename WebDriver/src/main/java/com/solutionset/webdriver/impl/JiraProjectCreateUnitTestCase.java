@@ -53,39 +53,39 @@ public class JiraProjectCreateUnitTestCase {
 		
 		List<ProjectBean> projectList = new ArrayList<ProjectBean>();
 		
-		projectList.add(new ProjectBean("AMEXCOMPARE", "American Express SOW21 - Compare Card", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("AMEXGCP", "American Express SOW39 - GCP Maintenance ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("AMEXMISC", "American Express - Misc Small Projects", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("AMEXMROE", "American Express SOW28 - MR Online Enrollment", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("AMEXR", "American Express SOW27 - Russia GCP Website ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("AMEXUKSAW", "American Express SOW29 - UK Savings at Work ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("BERKELEY", "Berkeley Review", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("CALOTBB", "CALottery : Client & GTECH : Tech Testing & On-going Development", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("CALOTDD", "CALottery : 2nd Chance internal task queue", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("CALOTT", "CALottery - Dev, Systems Engineering, and defects - Internal", "SolutionSet Default FixedÊ"));
-		projectList.add(new ProjectBean("CLOUDERA", "Cloudera - SOW 1", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("CLUBFOUR", "ClubOne - SOW4 ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("CLUBTHREE", "ClubOne - SOW 3", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("DATAS", "DataSift TACT MVP ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("DELLA", "ÊDell - SOW1 - Social Net Advocacy", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("DELLB", "Dell Social Net Advocacy (SNA, SNAp, SNApi)", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("DELLSNASHAREVOICE", "Dell SNA Competitor Data & Maintenance", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("ECHOSIGN", "EchoSign - SOW 1  Site Redesign ", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("GOOGLECA", "Google SOW46 CA Repo & Calendar System", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("GOOGLEM", "Google SOW45 Email Production Tools", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("GORESOURCE", "Launchpad Central", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("MRCB", "MRC SOW2", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("PACUNION", "Pacific Union", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("PROCURIAN", "Procurian SOW 2 - Website Updates", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("REMITDATAWD", " RemitDATA: SOW2", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("SITECOREKIT", "Sitecore Starter Kit", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("SOLSETWEBOPS", "SolutionSet - Systems Engineering Task Queue", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("SOCIALR", "SocialRep", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("SOLSET", "solutionset.com: redesign 2011", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("SPECKB", "Speck Products SOW3 - Partner Portal", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("UPSIPAD", "UPS iPad Project", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("VALSPAR", "Valspar: SOW1", "SolutionSet Scrum"));
-		projectList.add(new ProjectBean("YOUTUBE", "YouTube SOW 1 Course Builder", "SolutionSet Scrum"));
+		projectList.add(new ProjectBean("AMEXCOMPARE", "American Express SOW21 - Compare Card", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("AMEXGCP", "American Express SOW39 - GCP Maintenance ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("AMEXMISC", "American Express - Misc Small Projects", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("AMEXMROE", "American Express SOW28 - MR Online Enrollment", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("AMEXR", "American Express SOW27 - Russia GCP Website ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("AMEXUKSAW", "American Express SOW29 - UK Savings at Work ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("BERKELEY", "Berkeley Review", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("CALOTBB", "CALottery : Client & GTECH : Tech Testing & On-going Development", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("CALOTDD", "CALottery : 2nd Chance internal task queue", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("CALOTT", "CALottery - Dev, Systems Engineering, and defects - Internal", "SolutionSet Default FixedÊ", "10020"));
+		projectList.add(new ProjectBean("CLOUDERA", "Cloudera - SOW 1", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("CLUBFOUR", "ClubOne - SOW4 ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("CLUBTHREE", "ClubOne - SOW 3", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("DATAS", "DataSift TACT MVP ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("DELLA", "ÊDell - SOW1 - Social Net Advocacy", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("DELLB", "Dell Social Net Advocacy (SNA, SNAp, SNApi)", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("DELLSNASHAREVOICE", "Dell SNA Competitor Data & Maintenance", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("ECHOSIGN", "EchoSign - SOW 1  Site Redesign ", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("GOOGLECA", "Google SOW46 CA Repo & Calendar System", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("GOOGLEM", "Google SOW45 Email Production Tools", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("GORESOURCE", "Launchpad Central", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("MRCB", "MRC SOW2", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("PACUNION", "Pacific Union", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("PROCURIAN", "Procurian SOW 2 - Website Updates", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("REMITDATAWD", " RemitDATA: SOW2", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("SITECOREKIT", "Sitecore Starter Kit", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("SOLSETWEBOPS", "SolutionSet - Systems Engineering Task Queue", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("SOCIALR", "SocialRep", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("SOLSET", "solutionset.com: redesign 2011", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("SPECKB", "Speck Products SOW3 - Partner Portal", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("UPSIPAD", "UPS iPad Project", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("VALSPAR", "Valspar: SOW1", "SolutionSet Scrum", "10020"));
+		projectList.add(new ProjectBean("YOUTUBE", "YouTube SOW 1 Course Builder", "SolutionSet Scrum", "10020"));
 		
 		return projectList;
 		
@@ -98,6 +98,7 @@ public class JiraProjectCreateUnitTestCase {
 			
 			
 			String projectCode = project.getProjectCode();
+			String fieldConfig = project.getProjectFieldScheme();
 
 //Code to shorten projectCode, not necessary for 6.0.1			
 //			if (projectCode.length() > 10){
@@ -127,7 +128,21 @@ public class JiraProjectCreateUnitTestCase {
 			driver.findElement(By.id("associate_submit")).click();
 			
 			driver.findElement(By.id("workflow-mapping-submit")).click();
-			//driver.findElement(By.id("leave_admin")).click();
+
+			//additional code to add field scheme (this fixs scrum board problem)
+			
+			Thread.sleep(1000);
+			
+			driver.findElement(By.id("project-admin-link")).click();
+			driver.findElement(By.linkText("System Default Field Configuration")).click();
+			
+			Thread.sleep(1000);
+			
+			driver.findElement(By.id("project-config-tab-actions")).click();
+			driver.findElement(By.id("project-config-fields-scheme-change")).click();
+			new Select(driver.findElement(By.id("schemeId_select"))).selectByValue(fieldConfig);
+			driver.findElement(By.id("associate_submit")).click();
+			driver.findElement(By.cssSelector("#project-admin-link > span")).click();			
 			
 		}
 		
