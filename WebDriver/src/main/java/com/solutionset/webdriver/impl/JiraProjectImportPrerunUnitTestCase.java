@@ -60,7 +60,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 //		projectList.add("GOOGENGAGE");
 //		projectList.add("GOOGGDNNL");
 //		projectList.add("GOOGNX");
-//		projectList.add("REMITDATAWD");
+		projectList.add("REMITDATAWD");
 //		projectList.add("DOTNETTOOL");
 //		projectList.add("AMEXMISC");
 //		projectList.add("AMEXCOMPARE");
@@ -76,7 +76,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 //		projectList.add("CALOTCLIENT");
 //		projectList.add("CALOTT");
 //		projectList.add("CALOTINT");
-//		projectList.add("CALOTDD");
+		projectList.add("CALOTDD");
 //		projectList.add("CALOTBB");
 //		projectList.add("CALOTCC");
 //		projectList.add("CHEVRONG");
@@ -86,12 +86,12 @@ public class JiraProjectImportPrerunUnitTestCase {
 //		projectList.add("CLUBFOUR");
 //		projectList.add("CROWNA");
 //		projectList.add("DATAS");
-		projectList.add("DELLA");
+//		projectList.add("DELLA");
 //		projectList.add("DELLBO");
 //		projectList.add("DELLE");
 //		projectList.add("DELLD");
 //		projectList.add("DELLSNAP");
-//		projectList.add("DELLB");
+		projectList.add("DELLB");
 //		projectList.add("ECHOSIGN");
 //		projectList.add("GOOGADMOB");
 //		projectList.add("GOOGLEN");
@@ -119,9 +119,9 @@ public class JiraProjectImportPrerunUnitTestCase {
 //		projectList.add("NEWOPS");
 //		projectList.add("GORESOURCE");
 //		projectList.add("LEAP");
-//		projectList.add("MRCB");
+		projectList.add("MRCB");
 //		projectList.add("NVPA");
-		projectList.add("PACUNION");
+//		projectList.add("PACUNION");
 //		projectList.add("POLITEAR");
 //		projectList.add("PROCURIAN");
 //		projectList.add("PROSIGHT");
@@ -133,7 +133,7 @@ public class JiraProjectImportPrerunUnitTestCase {
 //		projectList.add("SOCIALR");
 //		projectList.add("SOLSETCREAT");
 //		projectList.add("SOLJIRA");
-		projectList.add("SOLSETWEBOPS");
+//		projectList.add("SOLSETWEBOPS");
 //		projectList.add("SOLSET");
 //		projectList.add("SPECKB");
 //		projectList.add("STELLRA");
