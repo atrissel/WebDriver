@@ -41,6 +41,8 @@ public class ModifyUserPasswordsTestCase {
 		    nameList.add(nextLine[1]);
 		    }
 		
+		reader.close();
+		
 		return nameList;
 		
 		
