@@ -66,9 +66,13 @@ public class JiraProjectCreateUnitTestCase {
 		String [] nextLine;
 		while ((nextLine = reader.readNext()) != null) {
 			
-			ProjectBean projectBean = new ProjectBean(nextLine[0], nextLine[1], nextLine[2], nextLine[3]);
-			projectList.add(projectBean);
+			if (!nextLine[0].equals("//")){
+			
+				ProjectBean projectBean = new ProjectBean(nextLine[0], nextLine[1], nextLine[2], nextLine[3]);
+				projectList.add(projectBean);
 		
+			}
+			
 		}
 		
 		reader.close();

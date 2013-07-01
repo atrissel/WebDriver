@@ -1,19 +1,18 @@
-//	AMEXUSSITE	AmericanExpress SOW30 - US Site	10061	10020
-//	AMEXCOMPARE	AmericanExpress SOW21 - Compare Card	10061	10020
-//	AMEXGCP	AmericanExpress SOW39 -GCP Maintenance	10061	10020
-//	AMEXMISC	AmericanExpress - Misc Small Projects	10061	10020
-//	AMEXMROE	AmericanExpress SOW28 - MR OnlineEnrollment	10061	10020
-//	AMEXR	AmericanExpress SOW27 - RussiaGCP Website	10061	10020
-//	AMEXUKSAW	AmericanExpress SOW29 - UK Savings at Work	10061	10020
-//	BERKELEY	Berkeley Review	10061	10020
-//	BREADM	Bre.ad SOW 2	10061	10000
-//	CALOTBB	CALottery : Client &GTECH : Tech Testing & On-goingDevelopment	10061	10060
+AMEXCOMPARE	AmericanExpress SOW21 - Compare Card	10061	10020
+AMEXGCP	AmericanExpress SOW39 -GCP Maintenance	10061	10020
+AMEXMISC	AmericanExpress - Misc Small Projects	10061	10020
+AMEXMROE	AmericanExpress SOW28 - MR OnlineEnrollment	10061	10020
+AMEXR	AmericanExpress SOW27 - RussiaGCP Website	10061	10020
+AMEXUKSAW	AmericanExpress SOW29 - UK Savings at Work	10061	10020
+BERKELEY	Berkeley Review	10061	10020
+BREADM	Bre.ad SOW 2	10061	10000
+CALOTBB	CALottery : Client &GTECH : Tech Testing & On-goingDevelopment	10061	10060
 CALOTT	CALottery -Dev, SystemsEngineering, andDefects - Internal	10050	10050
 CLOUDERA	Cloudera - SOW 1	10061	10062
 CLUBFOUR	ClubOne - SOW4	10061	10000
 CLUBTHREE	ClubOne - SOW 3	10061	10000
 DATAS	DataSift TACT MVP	10061	10000
-//	DELLA	Dell - SOW1 - Social Net Advocacy	10061	10020
+DELLA	Dell - SOW1 - Social Net Advocacy	10061	10020
 DELLSNASHAREVOICE	Dell SNA CompetitorData & Maintenance	10061	10020
 ECHOSIGN	echoSign - SOW 1 Site Redesign	10061	10000
 GOOGLECA	Google SOW46 CA Repo & Calendar System	10061	10060
@@ -21,16 +20,17 @@ GOOGLEM	Google SOW45Email Production Tools	10061	10060
 GORESOURCE	Launchpad Central	10061	10060
 LEAP	Leap Motion	10061	10000
 PACUNION	Pacific Union	10061	10060
-//	POLITEAR	PolitEar SOW1	10061	10060
+POLITEAR	PolitEar SOW1	10061	10060
 PROCURIAN	Procurian SOW 2 - Website Updates	10061	10000
 SITECOREKIT	Sitecore Starter Kit	10061	10020
-//	SOCIALR	SocialRep	10061	10000
-//	SOLSET	Solutionset.com: redesign 2011	10061	10000
+SOCIALR	SocialRep	10061	10000
+SOLSET	Solutionset.com: redesign 2011	10061	10000
 SOLSETWEBOPS	SolutionSet - SystemsEngineering Task Queue	10061	10020
 SPECKB	Speck Products SOW3 - Partner Portal	10061	10060
 UPSIPAD	UPS iPad Project	10061	10020
 VALSPAR	Valspar: SOW1	10061	10060
 YOUTUBE	YouTube SOW 1 Course Builder	10061	10020
+AMEXUSSITE	AmericanExpress SOW30 - US Site	0	10034
 APOLLO	ApolloGroup SOW 3	10061	10020
 BLACKARROW	BlackArrow	10061	10000
 BREAD	Bre.ad Maintenance - SOW1	0	10000
@@ -39,7 +39,7 @@ CALOTCLIENT	CALottery - CLIENT related task queue	0	10042
 CALOTDD	CALottery : 2nd Chance internal task queue	10061	10060
 CALOTINT	CALottery - Internal Project To-dos	0	10042
 CHEVRONG	Chevron	0	10020
-//	CISCOUAT	Cisco - CLN4.5 Upgrade UAT	0	10020
+CISCOUAT	Cisco - CLN4.5 Upgrade UAT	0	10020
 CLUB	ClubOne - SOW1	10061	10000
 CROWNA	Crown Peak SOW7	10061	10060
 DELLB	Dell Social Net Advocacy (SNA, SNAp, SNApi)	10061	10060

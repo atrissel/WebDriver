@@ -25,7 +25,7 @@ import au.com.bytecode.opencsv.CSVReader;
 
 public class JiraProjectImportUnitTestCase {
 	
-	private final String projectImportFile = "JIRA-merge-20130604-1348.zip";
+	private final String projectImportFile = "JIRA-merge-20130628-modified.zip";
 	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
@@ -61,9 +61,13 @@ public class JiraProjectImportUnitTestCase {
 		String [] nextLine;
 		while ((nextLine = reader.readNext()) != null) {
 			
-			ProjectBean projectBean = new ProjectBean(nextLine[0], nextLine[1], nextLine[2], nextLine[3]);
+			if (!nextLine[0].equals("//")){
+			
+				ProjectBean projectBean = new ProjectBean(nextLine[0], nextLine[1], nextLine[2], nextLine[3]);
 
-			projectList.add(projectBean.getProjectCode());
+				projectList.add(projectBean.getProjectCode());
+			
+			}
 		
 		}
 		
