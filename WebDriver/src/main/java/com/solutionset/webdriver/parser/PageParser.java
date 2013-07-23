@@ -1,7 +1,6 @@
 package com.solutionset.webdriver.parser;
 
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 
 import org.jsoup.Jsoup;
@@ -11,9 +10,9 @@ import org.jsoup.select.Elements;
 
 public class PageParser {
 	
-	public ArrayList listFilesForFolder(String directoryName) {
+	public ArrayList<String> listFilesForFolder(String directoryName) {
 		
-		ArrayList<String> fileNames = new ArrayList();
+		ArrayList<String> fileNames = new ArrayList<String>();
 		
 		File folder = new File(directoryName);
 		

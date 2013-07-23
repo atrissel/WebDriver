@@ -1,25 +1,20 @@
 package com.solutionset.webdriver.impl;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.fail;
 
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
 
 import au.com.bytecode.opencsv.CSVReader;
 
@@ -29,7 +24,7 @@ public class JiraProjectImportUnitTestCase {
 	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
-	private List<String> projectList = new ArrayList();
+	private List<String> projectList = new ArrayList<String>();
 	
 
 	@Before

@@ -1,25 +1,15 @@
 package com.solutionset.webdriver.impl;
 
-import static org.junit.Assert.*;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
-import java.sql.Array;
-import java.util.ArrayList;
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import au.com.bytecode.opencsv.CSVReader;
 
@@ -27,11 +17,11 @@ public class ModifyUserPasswordsTestCase {
 	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
-	private List<String> nameList = new ArrayList();
+	private List<String> nameList = new ArrayList<String>();
 	
 	private List<String> provisionList() throws Exception{
 		
-		List<String> nameList = new ArrayList();
+		List<String> nameList = new ArrayList<String>();
 		
 		CSVReader reader = new CSVReader(new FileReader("/Users/adamtrissel/git/JiraMigration/WebDriver/listusers.csv"), '\t');
 		String [] nextLine;

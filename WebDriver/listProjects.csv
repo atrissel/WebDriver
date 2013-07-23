@@ -1,93 +1,94 @@
-//	AMEXUSSITE	AmericanExpress SOW30 - US Site	10061	10020
-//	AMEXCOMPARE	AmericanExpress SOW21 - Compare Card	10061	10020
-//	AMEXGCP	AmericanExpress SOW39 -GCP Maintenance	10061	10020
-//	AMEXMISC	AmericanExpress - Misc Small Projects	10061	10020
-//	AMEXMROE	AmericanExpress SOW28 - MR OnlineEnrollment	10061	10020
-//	AMEXR	AmericanExpress SOW27 - RussiaGCP Website	10061	10020
-//	AMEXUKSAW	AmericanExpress SOW29 - UK Savings at Work	10061	10020
-//	BERKELEY	Berkeley Review	10061	10020
-//	BREADM	Bre.ad SOW 2	10061	10000
-//	CALOTBB	CALottery : Client &GTECH : Tech Testing & On-goingDevelopment	10061	10060
-CALOTT	CALottery -Dev, SystemsEngineering, andDefects - Internal	10050	10050
-CLOUDERA	Cloudera - SOW 1	10061	10062
-CLUBFOUR	ClubOne - SOW4	10061	10000
-CLUBTHREE	ClubOne - SOW 3	10061	10000
-DATAS	DataSift TACT MVP	10061	10000
-//	DELLA	Dell - SOW1 - Social Net Advocacy	10061	10020
-DELLSNASHAREVOICE	Dell SNA CompetitorData & Maintenance	10061	10020
-ECHOSIGN	echoSign - SOW 1 Site Redesign	10061	10000
-GOOGLECA	Google SOW46 CA Repo & Calendar System	10061	10060
-GOOGLEM	Google SOW45Email Production Tools	10061	10060
-GORESOURCE	Launchpad Central	10061	10060
-LEAP	Leap Motion	10061	10000
-PACUNION	Pacific Union	10061	10060
-//	POLITEAR	PolitEar SOW1	10061	10060
-PROCURIAN	Procurian SOW 2 - Website Updates	10061	10000
-SITECOREKIT	Sitecore Starter Kit	10061	10020
-//	SOCIALR	SocialRep	10061	10000
-//	SOLSET	Solutionset.com: redesign 2011	10061	10000
-SOLSETWEBOPS	SolutionSet - SystemsEngineering Task Queue	10061	10020
-SPECKB	Speck Products SOW3 - Partner Portal	10061	10060
-UPSIPAD	UPS iPad Project	10061	10020
-VALSPAR	Valspar: SOW1	10061	10060
-YOUTUBE	YouTube SOW 1 Course Builder	10061	10020
-APOLLO	ApolloGroup SOW 3	10061	10020
-BLACKARROW	BlackArrow	10061	10000
-BREAD	Bre.ad Maintenance - SOW1	0	10000
-CALOTCC	Calottery : imarcs 2nd chance TDD tech queue	0	10060
-CALOTCLIENT	CALottery - CLIENT related task queue	0	10042
-CALOTDD	CALottery : 2nd Chance internal task queue	10061	10060
-CALOTINT	CALottery - Internal Project To-dos	0	10042
-CHEVRONG	Chevron	0	10020
-//	CISCOUAT	Cisco - CLN4.5 Upgrade UAT	0	10020
-CLUB	ClubOne - SOW1	10061	10000
-CROWNA	Crown Peak SOW7	10061	10060
-DELLB	Dell Social Net Advocacy (SNA, SNAp, SNApi)	10061	10060
-DELLBO	DELL Back Office	10061	10000
-DELLD	Dell SNA Beta Testing	0	10061
-DELLE	DELLEIT	10061	10060
-DELLSNAP	Dell SNAP Productization	10061	10000
-DOTNETTOOL	.NET Team Tools	10061	10020
-EMEA	Epsilon - MarriottEMEA	10061	10060
-GOOGADMOB	Google AdWords Mobile App	10061	10060
-GOOGADS	Google: ADS	10061	10000
-GOOGAEC	Google: AgencyEngage Central	10061	10000
-GOOGALLSTARS	Google:Engage All Stars Microsite	10061	10060
-GOOGCM	Google: CM Site	10061	10000
-GOOGDC	Google: Incremental projects	10061	10050
-GOOGEAV	Google: K2 MSA	10061	10000
-GOOGENGAGE	Google:Engage	10061	10000
-GOOGGDNNL	Google:GDN Nurture Lead	10061	10000
-GOOGHTCTRANS	Google:HTC - Translations	10061	10000
-GOOGLCS	Google:Google + LCS	10061	10000
-GOOGLEA	Google-MPR	10061	10000
-GOOGLEABC	Google SOW24 - ABCDeployment	10061	10000
-GOOGLEAG	Google: Agency	10061	10000
-GOOGLEENTAPPS	Google:Enterprise Apps	10061	10000
-GOOGLEGA	Google:Google Analytics	10061	10000
-GOOGLEGW	Google:Google Wallet	10061	10000
-GOOGLEH	Google:GRM	10061	10000
-GOOGLEN	Google Incentives	10061	10000
-GOOGLEO	Google: HTCEmails	10061	10000
-GOOGLEP	Google Plus	10061	10000
-GOOGLESHOW	Google: Showtime	10061	10000
-GOOGLEWSHOP	Google Shopping	10061	10000
-GOOGNX	Google: Newbie X	10061	10000
-GOOGRHINO	Google:ShoppingExpress	10061	10000
-MRCB	MRC SOW2	10061	10060
-NEWOPS	Incoming Opportunities	0	10000
-NVPA	NVP	10000	10000
-PROSIGHT	ProSight SOW1	10061	10000
-PROSIGHTB	ProSight SOW2 Maintenance	10061	10000
-PROSIGHTC	ProSight SOW3	10061	10000
-REMITDATAWD	RemitDATA: SOW2	10061	10060
-RSACA	RSAC 2013	10000	10000
-SOLJIRA	SolutionSet - Jira Internal: New accounts, projects, support &Dev	0	10000
-SOLSETCREAT	SolutionSet - Creative	10000	10000
-SSNB	Silver Spring Networks SOW 2DRE 2011-12	10061	10020
-STELLRA	Stellr Marketing and MobileDevelopment	10061	10060
-TEACHA	Teachscape SOW 1	10061	10060
-TXUD	TXU UI	10061	10060
-VMWARE	VMware	10061	10020
-VMWAREB	VMware SOW8 - TheGame	10061	10060
-WFSWEEP	Wells Fargo - Sweepstakes	10061	10060
+SCHANCE	calottery : External 2nd Chance feedback & general testing	10061	10020
+//	//	AMEXUSSITE	AmericanExpress SOW30 - US Site	10061	10020
+//	//	AMEXCOMPARE	AmericanExpress SOW21 - Compare Card	10061	10020
+//	//	AMEXGCP	AmericanExpress SOW39 -GCP Maintenance	10061	10020
+//	//	AMEXMISC	AmericanExpress - Misc Small Projects	10061	10020
+//	//	AMEXMROE	AmericanExpress SOW28 - MR OnlineEnrollment	10061	10020
+//	//	AMEXR	AmericanExpress SOW27 - RussiaGCP Website	10061	10020
+//	//	AMEXUKSAW	AmericanExpress SOW29 - UK Savings at Work	10061	10020
+//	//	BERKELEY	Berkeley Review	10061	10020
+//	//	BREADM	Bre.ad SOW 2	10061	10000
+//	//	CALOTBB	CALottery : Client &GTECH : Tech Testing & On-goingDevelopment	10061	10060
+//	CALOTT	CALottery -Dev, SystemsEngineering, andDefects - Internal	10050	10050
+//	CLOUDERA	Cloudera - SOW 1	10061	10062
+//	CLUBFOUR	ClubOne - SOW4	10061	10000
+//	CLUBTHREE	ClubOne - SOW 3	10061	10000
+//	DATAS	DataSift TACT MVP	10061	10000
+//	//	DELLA	Dell - SOW1 - Social Net Advocacy	10061	10020
+//	DELLSNASHAREVOICE	Dell SNA CompetitorData & Maintenance	10061	10020
+//	ECHOSIGN	echoSign - SOW 1 Site Redesign	10061	10000
+//	GOOGLECA	Google SOW46 CA Repo & Calendar System	10061	10060
+//	GOOGLEM	Google SOW45Email Production Tools	10061	10060
+//	GORESOURCE	Launchpad Central	10061	10060
+//	LEAP	Leap Motion	10061	10000
+//	PACUNION	Pacific Union	10061	10060
+//	//	POLITEAR	PolitEar SOW1	10061	10060
+//	PROCURIAN	Procurian SOW 2 - Website Updates	10061	10000
+//	SITECOREKIT	Sitecore Starter Kit	10061	10020
+//	//	SOCIALR	SocialRep	10061	10000
+//	//	SOLSET	Solutionset.com: redesign 2011	10061	10000
+//	SOLSETWEBOPS	SolutionSet - SystemsEngineering Task Queue	10061	10020
+//	SPECKB	Speck Products SOW3 - Partner Portal	10061	10060
+//	UPSIPAD	UPS iPad Project	10061	10020
+//	VALSPAR	Valspar: SOW1	10061	10060
+//	YOUTUBE	YouTube SOW 1 Course Builder	10061	10020
+//	APOLLO	ApolloGroup SOW 3	10061	10020
+//	BLACKARROW	BlackArrow	10061	10000
+//	BREAD	Bre.ad Maintenance - SOW1	0	10000
+//	CALOTCC	Calottery : imarcs 2nd chance TDD tech queue	0	10060
+//	CALOTCLIENT	CALottery - CLIENT related task queue	0	10042
+//	CALOTDD	CALottery : 2nd Chance internal task queue	10061	10060
+//	CALOTINT	CALottery - Internal Project To-dos	0	10042
+//	CHEVRONG	Chevron	0	10020
+//	//	CISCOUAT	Cisco - CLN4.5 Upgrade UAT	0	10020
+//	CLUB	ClubOne - SOW1	10061	10000
+//	CROWNA	Crown Peak SOW7	10061	10060
+//	DELLB	Dell Social Net Advocacy (SNA, SNAp, SNApi)	10061	10060
+//	DELLBO	DELL Back Office	10061	10000
+//	DELLD	Dell SNA Beta Testing	0	10061
+//	DELLE	DELLEIT	10061	10060
+//	DELLSNAP	Dell SNAP Productization	10061	10000
+//	DOTNETTOOL	.NET Team Tools	10061	10020
+//	EMEA	Epsilon - MarriottEMEA	10061	10060
+//	GOOGADMOB	Google AdWords Mobile App	10061	10060
+//	GOOGADS	Google: ADS	10061	10000
+//	GOOGAEC	Google: AgencyEngage Central	10061	10000
+//	GOOGALLSTARS	Google:Engage All Stars Microsite	10061	10060
+//	GOOGCM	Google: CM Site	10061	10000
+//	GOOGDC	Google: Incremental projects	10061	10050
+//	GOOGEAV	Google: K2 MSA	10061	10000
+//	GOOGENGAGE	Google:Engage	10061	10000
+//	GOOGGDNNL	Google:GDN Nurture Lead	10061	10000
+//	GOOGHTCTRANS	Google:HTC - Translations	10061	10000
+//	GOOGLCS	Google:Google + LCS	10061	10000
+//	GOOGLEA	Google-MPR	10061	10000
+//	GOOGLEABC	Google SOW24 - ABCDeployment	10061	10000
+//	GOOGLEAG	Google: Agency	10061	10000
+//	GOOGLEENTAPPS	Google:Enterprise Apps	10061	10000
+//	GOOGLEGA	Google:Google Analytics	10061	10000
+//	GOOGLEGW	Google:Google Wallet	10061	10000
+//	GOOGLEH	Google:GRM	10061	10000
+//	GOOGLEN	Google Incentives	10061	10000
+//	GOOGLEO	Google: HTCEmails	10061	10000
+//	GOOGLEP	Google Plus	10061	10000
+//	GOOGLESHOW	Google: Showtime	10061	10000
+//	GOOGLEWSHOP	Google Shopping	10061	10000
+//	GOOGNX	Google: Newbie X	10061	10000
+//	GOOGRHINO	Google:ShoppingExpress	10061	10000
+//	MRCB	MRC SOW2	10061	10060
+//	NEWOPS	Incoming Opportunities	0	10000
+//	NVPA	NVP	10000	10000
+//	PROSIGHT	ProSight SOW1	10061	10000
+//	PROSIGHTB	ProSight SOW2 Maintenance	10061	10000
+//	PROSIGHTC	ProSight SOW3	10061	10000
+//	REMITDATAWD	RemitDATA: SOW2	10061	10060
+//	RSACA	RSAC 2013	10000	10000
+//	SOLJIRA	SolutionSet - Jira Internal: New accounts, projects, support &Dev	0	10000
+//	SOLSETCREAT	SolutionSet - Creative	10000	10000
+//	SSNB	Silver Spring Networks SOW 2DRE 2011-12	10061	10020
+//	STELLRA	Stellr Marketing and MobileDevelopment	10061	10060
+//	TEACHA	Teachscape SOW 1	10061	10060
+//	TXUD	TXU UI	10061	10060
+//	VMWARE	VMware	10061	10020
+//	VMWAREB	VMware SOW8 - TheGame	10061	10060
+//	WFSWEEP	Wells Fargo - Sweepstakes	10061	10060

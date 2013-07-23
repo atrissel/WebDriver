@@ -1,25 +1,18 @@
 package com.solutionset.webdriver.impl;
 
-import static org.junit.Assert.*;
+//import static org.junit.Assert.*;
 
-import java.io.FileNotFoundException;
+//import java.io.FileNotFoundException;
 import java.io.FileReader;
-import java.io.PrintWriter;
-import java.io.UnsupportedEncodingException;
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.Select;
 
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 import au.com.bytecode.opencsv.CSVReader;
 
@@ -27,7 +20,7 @@ public class TestJiraProjectCreateUnitTestCase {
 	
 	private WebDriver driver = new ChromeDriver();
 	private String baseUrl = "http://tracker.d.solutionset.com/";
-	private List<ProjectBean> projectList = new ArrayList();
+	private List<ProjectBean> projectList = new ArrayList<ProjectBean>();
 
 	
 
@@ -42,22 +35,21 @@ public class TestJiraProjectCreateUnitTestCase {
 	public void tearDown() throws Exception {
 	}
 	
-	private void writeToFile(String filename, String contents) throws Exception, UnsupportedEncodingException{
-		
-		PrintWriter pw = new PrintWriter(filename + ".html", "UTF-8");
-		
-		pw.write(contents);
-		
-		pw.close();
-		
-	}
+//	private void writeToFile(String filename, String contents) throws Exception, UnsupportedEncodingException{
+//		
+//		PrintWriter pw = new PrintWriter(filename + ".html", "UTF-8");
+//		
+//		pw.write(contents);
+//		
+//		pw.close();
+//		
+//	}
 	
 	private List<ProjectBean> provisionList() throws Exception{
 		
 		List<ProjectBean> projectList = new ArrayList<ProjectBean>();
 		
-		List<String> nameList = new ArrayList();
-		
+		//List<String> nameList = new ArrayList<String>();
 		CSVReader reader = new CSVReader(new FileReader("/Users/adamtrissel/git/JiraMigration/WebDriver/listProjects.csv"), '\t');
 		String [] nextLine;
 		while ((nextLine = reader.readNext()) != null) {
